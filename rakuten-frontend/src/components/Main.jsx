@@ -53,7 +53,7 @@ const Main = () => {
 
     return (
         <div>
-            {loading ? ( <h1>何もない...</h1> ) : ( dom.map(u => ( <User {...u} /> )))}
+            {loading ? ( <h1>takurinton</h1> ) : ( dom.map(u => ( <User {...u} /> )))}
 
             <form onSubmit={onSubmit}>
                 <input type="text" name="name" value={state.name} onChange={onChange} placeholder="name" />
